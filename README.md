@@ -33,7 +33,7 @@ AskNITAP is a smart, AI-powered virtual assistant designed to answer queries rel
    git clone https://github.com/aaryan-cs/AskNIT-AP
    pip install -r requirements.txt
 2. *Run server*
-   '''bash
+   ```bash
    cd rag_app
    python manage.py runserver
 3. Go to http://127.0.0.1:8000/
