@@ -1,0 +1,229 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>NIT Andhra Pradesh</title>
+    
+    <link rel="stylesheet" href="{% static 'chatbot/styles.css' %}" />
+    <link rel="icon" type="image/x-icon" href="{% static 'chatbot/bglogo.png' %}">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #333;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      #chat-container {
+        position: fixed;
+        top: 0;
+        right: -450px;
+        width: 400px;
+        height: 95%;
+        background: white;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      #chat-box {
+        flex: 1;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 350px;
+      }
+
+      #chat-box p {
+        background: #e0e0e0;
+        padding: 8px;
+        border-radius: 5px;
+        margin: 5px 0;
+        word-wrap: break-word;
+      }
+
+      #chat-input-container {
+        display: flex;
+        gap: 5px;
+        padding: 10px 0;
+      }
+
+      #user-input {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      #send-button {
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #chat-button {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        z-index: 1000;
+      }
+      #navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #a0573d ;
+        padding: 8px 0;
+        margin-top: 20px;
+      }
+
+      .nav-item {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 16px;
+        
+      }
+
+      .nav-item:hover {
+        background-color: #555;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body id="bg">
+    
+    <!-- Hidden CSRF token to ensure cookie is set -->
+    <div style="display: none">{% csrf_token %}</div>
+
+    <h1 style="color:white";>National Institute of Technology, Andhra Pradesh</h1>
+    <img id="navlogo" src="{% static 'chatbot/bglogo.png' %}" alt="LOGO" />
+    <div id="navbar">
+      
+        <a href="#" class="nav-item">Home</a>
+        <a href="#" class="nav-item">Administration</a>
+        <a href="#" class="nav-item">Academics</a>
+        <a href="#" class="nav-item">Research</a>
+        <a href="#" class="nav-item">Placements</a>
+        <a href="#" class="nav-item">Student Welfare</a>
+        <a href="#" class="nav-item">NIRF</a>
+    </div>
+    </div>
+
+    <button id="chat-button" onclick="toggleChat()">?</button>
+    
+    <div id="chat-container">
+      <h2>ChatBot</h2>
+      <div id="chat-box"></div>
+      <div id="chat-input-container">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button id="send-button">Send</button>
+        <button id="close-button" onclick="toggleChat()">Close</button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .getElementById("send-button")
+          .addEventListener("click", sendMessage);
+        document
+          .getElementById("user-input")
+          .addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+              sendMessage();
+            }
+          });
+      });
+
+      function toggleChat() {
+        let chatContainer = document.getElementById("chat-container");
+        chatContainer.style.right =
+          chatContainer.style.right === "0px" ? "-450px" : "0px";
+      }
+
+      function sendMessage() {
+        let userInput = document.getElementById("user-input").value;
+        let chatBox = document.getElementById("chat-box");
+
+        if (userInput.trim() !== "") {
+          let userMessage = document.createElement("p");
+          userMessage.innerHTML = "<strong>You:</strong> " + userInput;
+          userMessage.style.background = "#007BFF";
+          userMessage.style.color = "white";
+          userMessage.style.alignSelf = "flex-end";
+          userMessage.style.padding = "10px";
+          userMessage.style.borderRadius = "5px";
+          userMessage.style.margin = "5px 0";
+          chatBox.appendChild(userMessage);
+
+          fetch("/chat/", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+              "X-CSRFToken": getCookie("csrftoken"),
+            },
+            body: `message=${encodeURIComponent(userInput)}`,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              let botMessage = document.createElement("p");
+              botMessage.innerHTML = "<strong>Bot:</strong> " + data.response;
+              botMessage.style.background = "#e0e0e0";
+              botMessage.style.alignSelf = "flex-start";
+              botMessage.style.padding = "10px";
+              botMessage.style.borderRadius = "5px";
+              botMessage.style.margin = "5px 0";
+              chatBox.appendChild(botMessage);
+              chatBox.scrollTop = chatBox.scrollHeight;
+            });
+
+          document.getElementById("user-input").value = "";
+        }
+      }
+
+      function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== "") {
+          let cookies = document.cookie.split(";");
+          for (let cookie of cookies) {
+            cookie = cookie.trim();
+            if (cookie.startsWith(name + "=")) {
+              cookieValue = decodeURIComponent(
+                cookie.substring(name.length + 1)
+              );
+              break;
+            }
+          }
+        }
+        return cookieValue;
+      }
+    </script>
+
+    <div id="footer">
+      <ul id="footer-links"></ul>
+      <span id="copyright">© 2025, NIT Andhra Pradesh</span>
+    </div>
+  </body>
+</html>

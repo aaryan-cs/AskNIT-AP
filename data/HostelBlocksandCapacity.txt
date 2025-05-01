@@ -1,0 +1,137 @@
+ All forms related to hostel and mess can be downloaded at https://nitandhra.ac.in/main/hostels.php
+ --- GENERAL HOSTEL & MESS INFO ---
+
+Hostel Objectives:
+The hostel serves as a home on campus, offering utilities, food, sports, and a hygienic environment. Students must maintain decorum and bring credit to themselves and the institute.
+
+Mess Objectives:
+NIT Andhra Pradesh provides one mess for the girls’ hostel and two messes for boys’ hostels, run on a cooperative basis. All boarders must join the mess compulsorily. For issues or emergencies, contact the caretaker first, then the warden.
+
+Hostel Forms:
+All forms related to hostel and mess can be downloaded from: https://nitandhra.ac.in/main/hostels.php
+
+--- BOYS HOSTELS ---
+
+1. Godavari Hostel
+- Rooms: 76 (4-seater each)
+- Capacity: 304
+- Warden: Dr. Surendra HM (warden_ghr@nitandhra.ac.in, 6366698618)
+- Caretakers:
+  • K. Mohan Manikanta - 9398231347
+  • P.P. Veerayya - 9182220145
+  • N.V. Vamsi - 7993986249
+
+2. Vamsadhara Hostel
+- Rooms: 127 (4-seater each)
+- Capacity: 508
+- Warden: Dr. Shagolsem Romeo Meitei (warden_vhr@nitandhra.ac.in, 9774435710)
+- Caretakers:
+  • D. Balaji Ram - 8142991991
+  • R. Mohan Kumar - 7013952537
+
+3. Pranahita Hostel
+- Rooms: 100 (2-seater each)
+- Capacity: 200
+- Warden: Dr. Pawan Kumar Chamling (warden_prhr@nitandhra.ac.in, 9113183970)
+- Caretaker: T. Laxmankumar - 9618858426
+
+4. Sabari Hostel
+- Rooms: 100 (2-seater each)
+- Capacity: 200
+- Warden: Dr. Sarada Prasanna Mallick (warden_sabari@nitandhra.ac.in, 8756110869)
+- Caretaker: G. Chandra Sekhar - 9705958802
+
+5. Indravathi Hostel
+- Rooms: 100 (2-seater each)
+- Capacity: 200
+- Warden: Dr. Srikanth Alllamsetty (warden_ihr@nitandhra.ac.in, 9581175299)
+- Caretaker: A. N. Durga Rao - 9666717902
+
+6. Nagavali Hostel
+- Rooms: 167 (2-seater each)
+- Capacity: 334
+- Warden: Dr. Subhajit Sen (warden_nhr@nitandhra.ac.in, 9732899189)
+- Caretakers:
+  • M. Satyanarayana - 9848419666
+  • N. Sivakrishna - 7396956353
+  • M. Subhash - 7893777661
+
+7. Purna Hostel
+- Rooms: 100 (1-seater each)
+- Capacity: 100
+- Warden: Dr. Sharad Dwivedi (warden_phr@nitandhra.ac.in, 8076079681)
+- Caretakers:
+  • K. Krishna - 9515332021
+  • C. H. Ramji - 8977595156
+
+8. Manjeera Hostel
+- Rooms: 100 (1-seater each)
+- Capacity: 100
+- Warden: Dr. Sharad Dwivedi (warden_mhr@nitandhra.ac.in, 8076079681)
+- Caretakers:
+  • K. Krishna - 9515332021
+  • C. H. Ramji - 8977595156
+
+9. Banganga Hostel
+- Rooms: 100 (1-seater each)
+- Capacity: 100
+- Warden: Dr. Surendra HM (warden_bhr@nitandhra.ac.in, 6366698618)
+- Caretakers:
+  • K. Mohan Manikanta - 9398231347
+  • P.P. Veerayya - 9182220145
+  • N.V. Vamsi - 7993986249
+
+10. Swarnamukhi Hostel
+- Rooms: 167 (1-seater each)
+- Capacity: 167
+- Warden: Dr. Subhajit Sen (warden_shr@nitandhra.ac.in, 9732899189)
+- Caretakers:
+  • M. Satyanarayana - 9848419666
+  • N. Sivakrishna - 7396956353
+  • M. Subhash - 7893777661
+
+--- GIRLS HOSTELS ---
+
+1. Krishnaveni Hostel
+- Rooms: 50 (4-seater each)
+- Capacity: 200
+- Warden: Dr. Sunita Deb (warden_khr@nitandhra.ac.in, 9547208834)
+- Dy. Chief Warden: Dr. T. Reshma
+- Caretakers:
+  • V. V. Lakshmi Devi - 9490353438
+  • B. Deepika - 7993809560
+
+2. Bhima Hostel
+- Rooms: 100 (2-seater each)
+- Capacity: 200
+- Warden: Dr. Nisha Amarnath Jonniya (warden_bmhr@nitandhra.ac.in, 9074540002)
+- Caretakers:
+  • D. Madhuri - 9182876998
+  • M. Devi Chandrakala Deepthi - 8106860120
+
+3. Thungabhadra Hostel
+- Rooms: 100 (2-seater each)
+- Capacity: 200
+- Warden: Dr. Ahna Sharan (warden_thr@nitandhra.ac.in, 8603803031)
+- Caretakers:
+  • B. Someswari - 8019698938
+  • A. Suguna - 9491668499
+
+4. Ghataprabha Hostel
+- Rooms: 100 (1-seater each)
+- Capacity: 100
+- Warden: Dr. V. Sudarshana Deepa (warden_ghr@nitandhra.ac.in, 9944904249)
+- Caretakers:
+  • T. Venkata Madhavi - 9010703003
+  • B. Anupama - 7416619290
+  • M. Divya Teja Sri - 7659913337
+
+5. Munneru Hostel
+- Rooms: 100 (1-seater each)
+- Capacity: 100
+- Warden: Dr. V. Sudarshana Deepa (warden_mhr@nitandhra.ac.in, 9944904249)
+- Caretakers:
+  • T. Venkata Madhavi - 9010703003
+  • B. Anupama - 7416619290
+  • M. Divya Teja Sri - 7659913337
+All forms related to hostel can be downloaded at https://nitandhra.ac.in/main/hostels.php

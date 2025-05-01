@@ -1,0 +1,43 @@
+
+The following is the list of the Head of Department HOD's at NIT Andhra Pradesh:
+
+    DEPT. OF BIOTECHNOLOGY
+    Dr. V. SUDARSHANA DEEPA
+    hod_biot@nitandhra.ac.in
+
+    DEPT. OF CHEMICAL ENGG
+    Dr. VINOTH KUMAR RAJA
+    hod_chem@nitandhra.ac.in
+
+    DEPT. OF CIVIL ENGG
+    Dr. TALARI RESHMA
+    hod_civil@nitandhra.ac.in
+
+    DEPT. OF CSE
+    Dr. NAGESH BHATTU SRISTY
+    hod_cse@nitandhra.ac.in
+
+    DEPT. OF EEE
+    Dr. TEJAVATHU RAMESH
+    hod_eee@nitandhra.ac.in
+
+    DEPT. OF ECE
+    Dr. NARASIMHA RAO BANAVATHU
+    hod_ece@nitandhra.ac.in
+
+    DEPT. OF MECH
+    Dr. SANTHOSH KUMAR GUGULOTHU
+    hod_mech@nitandhra.ac.in
+
+    DEPT. OF MME
+    Dr. RAFFI MOHAMMED
+    hod_mme@nitandhra.ac.in
+
+    DEPT. OF SOS
+    Dr. AMARENDAR REDDY M
+    hod_sos@nitandhra.ac.in
+    
+    DEPT. OF SHM
+    Dr. SOUMYA JOSE
+    hod_shm@nitandhra.ac.in
+

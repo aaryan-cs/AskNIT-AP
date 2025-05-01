@@ -1,0 +1,5 @@
+The library timings at NIT Andhra Pradesh are:
+
+* Monday to Friday: 9:00 AM to 12:00 AM
+* Saturday: 9:00 AM to 5:00 PM
+* Sunday: 9:00 AM to 5:00 PM

@@ -1,0 +1,8 @@
+.vscode/
+.env
+gpt_rag.py
+memory_rag.py
+scrape.py
+scraped_text.txt
+webapp/
+env/
